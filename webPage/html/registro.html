@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/webStyle.css">
+</head>
+<body>
+    <header>
+        <nav class="headerNav">
+            <img class="miniLogo" src="../images/logoMusicalia.png" alt="Logo">
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/articulos.html">Artículos</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+                <li><a href="../html/registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="headerimg2">
+        <img src="../images/headerimg.png" alt="musicalia">
+    </div>
+
+    <div class="cuerpo">
+        <h3 class="preRegistro">FORMULARIO DE REGISTRO EN MUSICALIA</h3>
+        <h4 class="preRegistro">Registrate en Musicalia y disfruta de las futuras ventajas que vamos a ofrecerte!</h4>
+        
+        <form id="registroForm">
+            <p>
+            <label for="name">Nombre y apellidos</label><br>
+            <input class="textArea" type="text" name="name"><br>
+            </p>
+
+            <p>
+            <label for="userName">Nombre de usuario</label><br>
+            <input class="textArea" type="text" name="userName" required><br>
+            </p>
+
+            <p>
+            <label for="email">Correo electrónico</label><br>
+            <input class="textArea" type="email" id="email" name="email" placeholder="p.e. maria123@gmail.com" required><br>
+            </p>
+
+            <p>
+            <label for="birth_date">Fecha de nacimiento</label><br>
+            <input class="textArea" type="date" name="birth_date"><br>
+            </p>
+
+            <p>
+                <label for="categoria">Selecciona las categorías en las que estés interesado/a</label><br>
+                <input type="checkbox" id="categoria1" name="categoria">
+                <label for="categoria1">Pop</label><br>
+                <input type="checkbox" id="categoria2" name="categoria">
+                <label for="categoria2">Rock</label><br>
+                <input type="checkbox" id="categoria3" name="categoria">
+                <label for="categoria3">Música Clásica</label><br>
+                <input type="checkbox" id="categoria4" name="categoria">
+                <label for="categoria4">R&B</label><br>
+                <input type="checkbox" id="categoria5" name="categoria">
+                <label for="categoria5">Curiosidades</label><br>
+                <input type="checkbox" id="categoria6" name="categoria">
+                <label for="categoria6">Novedades</label><br>
+            </p>
+
+            <p>
+                <label for="newsletter">Subscribete a la Newletter y mantente informado!!!</label><br>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Acepto subscribirme a la Newsletter de Musicalia</label><br>
+            </p>
+
+            <p>
+                <input type="radio" id="acceptar_politica" name="acceptar_politica" required>
+                <label for="acceptar_politica">Acepto la <a href="#">Política de Privacidad</a></label>
+            </p>
+
+            <p>
+                <input type="submit" class="btn">
+            </p>
+        </form>
+    </div>
+
+        <footer>
+            <div class="redesFooter">
+                <a href="https://www.gmail.com/"><img src="../images/gmail.png" alt="Gmail"></a>
+                <a href="https://twitter.com/"><img src="../images/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="listFooter">
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><img class="miniLogo" src="../images/logoMusicalia.png" alt="Logo"></li>
+                </ul>
+            </div>
+            <div class="copyright"><p>Musicalia © 2023</p></div>
+        </footer>
+</body>
+</html>

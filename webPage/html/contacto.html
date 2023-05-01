@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/webStyle.css">
+</head>
+<body>
+    <header>
+        <nav class="headerNav">
+            <img class="miniLogo" src="../images/logoMusicalia.png" alt="Logo">
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/articulos.html">Artículos</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+                <li><a href="../html/registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="headerimg2">
+        <img src="../images/headerimg.png" alt="musicalia">
+    </div>
+
+    <div id="cuerpoflex">
+        <div id="cuerpoIzquierda">
+            <img src="../images/CV.png" alt="CV"><br>
+            <a class="btn" href="../files/CV_Guimel.pdf" download="Currículum_Vitae_Guimel_Barrientos">Descargar CV</a>
+        </div>
+
+        <div id="cuerpoDerecha">
+            <div id="aboutMe">
+                <p class="title"><b>ABOUT ME</b></p>
+                <img src="../images/aboutMeImg.PNG" alt="Foto animada">
+                <p>Soy estudiante de primer año en Desarrollo <br>de Aplicaciones Multiplataforma.<br>Experiencia en un trabajo activo como<br> 
+                    lo es la restauración.<br>
+                    Con ganas de aprender continuamente reflejando<br> una evolución continua.
+                </p>
+                <div id="redesAboutMe">
+                    <a href="https://www.gmail.com/" target="_blank"><img src="../images/gmail.png" alt="Gmail"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="../images/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../images/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div id="contact">
+                <p class="title"><b>CONTACTO</b></p>
+                <form id="contactoForm">
+                    <p>
+                    <label for="name">Nombre</label><br>
+                    <input class="textArea" type="text" name="name"><br>
+                    </p>
+        
+                    <p>
+                    <label for="apellidos">Apellidos</label><br>
+                    <input class="textArea" type="text" name="apellidos"><br>
+                    </p>
+        
+                    <p>
+                    <label for="email">Correo electrónico</label><br>
+                    <input class="textArea" type="email" id="email" name="email" placeholder="p.e. maria123@gmail.com" required><br>
+                    </p>
+        
+                    <p>
+                        <label for="motivosContacto">Selecciona el motivo de contacto:</label><br>
+                        <select id="motivosContacto" name="motivos">
+                            <option value="motivos">Selecciona</option>
+                            <option value="motivos">Más información sobre el sitio web</option>
+                            <option value="motivos">Ayuda con el registro</option>
+                            <option value="motivos">Problemas con el sitio web</option>
+                            <option value="motivos">Otros</option>
+                        </select><br>
+                    </p>
+
+                    <p>
+                        <textarea name="mensaje" rows="6" cols="30" placeholder="Escriba aquí su mensaje..."></textarea>
+                    </p>
+        
+                    <p>
+                        <input type="radio" id="RecogidaDatos" name="RecogidaDatos" required>
+                        <label for="RecogidaDatos">Acepto la recogida de datos</label>
+                    </p>
+        
+                    <p>
+                        <input type="submit">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="redesFooter">
+            <a href="https://www.gmail.com/"><img src="../images/gmail.png" alt="Gmail"></a>
+            <a href="https://twitter.com/"><img src="../images/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Instagram"></a>
+        </div>
+        <div class="listFooter">
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><img class="miniLogo" src="../images/logoMusicalia.png" alt="Logo"></li>
+            </ul>
+        </div>
+        <div class="copyright"><p>Musicalia © 2023</p></div>
+    </footer>
+</body>
+</html>
